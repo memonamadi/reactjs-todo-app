@@ -18,7 +18,6 @@ module.exports = React.createClass({
 				type='text' 
 				className='form-control' />
 			<span className='input-group-btn'>
-				// onClick: when user clicks add button, it triggers the handleClick event
 				<button 
 					onClick={this.handleClick}
 					className='btn btn-default' 
